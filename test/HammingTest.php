@@ -37,7 +37,6 @@ class HammingTest extends PHPUnit\Framework\TestCase
 
     public function testDevuelveFalseConLongitudesDiferentes()
     {
-        $this->assertSame(false, distancia('GGACG', 'AGGACGTGG'));
+        $this->assertSame(null, distancia('GGACG', 'AGGACGTGG'));
     }
 }
-
